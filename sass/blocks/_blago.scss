@@ -1,0 +1,50 @@
+.blago {
+    min-height: 359px;
+    background: #3ECF5E;
+    padding: 71px 0 89px 0;
+    position: relative;
+    &__title {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+    }
+    &__radio {
+        margin-top: 52px;
+        input {
+            border: 1px solid #fff;
+            margin: 0 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+            
+        }
+        &_descr {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+        }
+    }
+    &__form {
+        margin-top: 30px;
+        input {
+            background: none;
+            width: 234px;
+            height: 51px;
+            border: 1px solid #FFFFFF;
+            outline: none;
+        }
+    }
+    &__phone {
+        position: absolute;
+        right: 497px;
+        top: -10%;
+        overflow: hidden;
+    }
+}

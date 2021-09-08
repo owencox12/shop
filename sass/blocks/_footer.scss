@@ -1,0 +1,23 @@
+.footer {
+    min-height: 255px;
+    padding: 102px 0 132px 0;
+    background: #333333;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        a {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+            margin: 0 23.5px;
+        }
+    }
+}
+.footer-img {
+    margin-right: 10px;
+}

@@ -1,0 +1,28 @@
+.modal {
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    transition: all .5s;
+    &_active {
+        left: 0;
+    }
+    &__window {
+        width: 250px;
+        height: 100px;
+        background: #2f9144;
+        position: relative;
+        padding: 10px;
+        &_exit {
+            color: #fff;
+            font-size: 50px;
+            position: absolute;
+            right: 1%;
+            top: -20%;
+            cursor: pointer;
+        }
+        &_descr {
+            color: #fff;
+            font-family: Gilroy;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.header {
+    min-height: 204px;
+    padding: 33px 0 30px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    &__burger {
+        display: none;
+        &_list {
+            display: none;
+        }
+    }
+    &__inner {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_logo {
+                z-index: 1000;
+            }
+            &_item {
+                display: flex;
+                &_phone {
+                    a {
+                        font-family: Gilroy;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #000000;
+                    }
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+                &_users {
+                    display: flex;
+                    margin-left: 60px;
+                    &_auth {
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+    &__navigation {
+        &_wrapper {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            &_item {
+                &_list {
+                    list-style: none;
+                    display: flex;
+                    padding-left: 0;
+                    margin: 0;
+                    &_li {
+                        margin: 0 20px;
+                        a {
+                            font-family: Gilroy;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 21px;
+                            color: #4F4F4F;
+                        }
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                    }
+                }
+                &_search {
+                    input {
+                        width: 345px;
+                        height: 54px;
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        border: 1px solid rgba(0, 0, 0, .3);
+                        background: url(../../img/Search.png) no-repeat 300px 13px;
+                        outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }

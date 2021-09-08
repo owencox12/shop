@@ -1,0 +1,71 @@
+.catalog {
+    &__wrapper {
+        &_feeders {
+            width: 315px;
+            min-height: 566px;
+            border: 1px solid #F2F2F2;
+            box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 20px;
+            padding: 20px 20px 30px 20px;
+            &_title {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 130%;
+                color: #333333;
+                width: 275px;
+                margin-top: 25px;
+            }
+            &_subtitle {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 130%;
+                color: #828282;
+                margin-top: 5px;
+            }
+            &_footer { 
+                img {
+                    margin-left: 68px;
+                    border: 1px solid rgba(0, 0, 0, .2);
+                    padding: 6px;
+                    cursor: pointer;
+                }
+            }
+            &_price {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 27px;
+                color: #333333;
+                margin-top: 25px;
+                &_select {
+                    margin-top: 25px;
+                    &_option {
+                        margin: 0 6px;
+                        width: 45px;
+                        height: 21px;
+                        font-family: Gilroy;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #4F4F4F;
+                        cursor: pointer;
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                        &_active {
+                            border: 1px solid #3ECF5E;
+                            padding: 7px;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

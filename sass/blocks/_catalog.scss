@@ -1,0 +1,74 @@
+.catalog {
+    min-height: 3500px;
+    padding: 75px 0 152px 0;
+    background: #f9f9f9;
+    &__title {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4F4F4F;
+        &_second {
+            margin-top: 75px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        &_item {
+            width: 427px;
+            min-height: 400px;
+            border: 1px solid #F2F2F2;
+            box-shadow: -8px -8px 15px #FFFFFF, 4px 4px 20px rgba(175, 173, 173, 0.5);
+            border-radius: 15px;
+            padding: 20px 20px 30px 20px;
+            margin: 0 10px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &_title {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                text-transform: capitalize;
+                color: #000000;
+                margin-top: 15px;
+            }
+            &_timeout {
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 20px;
+                font-weight: 700;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            &_subtitle {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: #828282;
+                margin-top: 4px;
+            }
+        }
+    }
+    &__options {
+        select {
+            border: none;
+            outline: none;
+            color: #219653;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #219653;
+            margin-left: 30px;
+        }
+    }
+}

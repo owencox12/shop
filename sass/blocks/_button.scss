@@ -1,0 +1,36 @@
+.button {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    &--catalog {
+        width: 161px;
+        height: 45px;
+        background: #3FCF5E;
+        border: 1px solid rgba(110, 230, 144, 0.53);
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-top: 50px;
+        &_bird {
+            width: 161px;
+            height: 45px;
+            background: #3FCF5E;
+            border: 1px solid rgba(110, 230, 144, 0.53);
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+    }
+    &--blago {
+        width: 202px;
+        height: 51px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        color: #000;
+        margin-left: 20px;
+    }
+}
