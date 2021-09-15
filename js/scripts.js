@@ -78,17 +78,6 @@ btn.addEventListener("click", function(){
         behavior: "smooth"
     });
 })
-let modal = document.querySelector(".modal")
-let time = setInterval(modalInterval, 2000)
-function modalInterval() {
-    modal.classList.add("modal_active")
-    clearInterval(time)
-}
-let modalExit = document.querySelector(".modal__window_exit")
-modalExit.addEventListener("click", function(){
-    modal.classList.remove("modal_active")
-})
-})
 
 class timer {
     constructor(number, selector) {
